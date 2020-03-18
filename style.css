@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 
 * {
   box-sizing: border-box;
@@ -12,7 +12,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   margin: 0;
 }
 
@@ -35,6 +35,11 @@ body {
 .container {
   perspective: 1000px;
   margin-bottom: 30px;
+}
+
+.posters img {
+  height: 350px;
+  width: 300px;
 }
 
 .seat {
@@ -112,4 +117,11 @@ p.text {
 
 p.text span {
   color: #6feaf6;
+}
+
+@media (max-width: 600px) {
+  .posters img {
+    height: 150px;
+    width: 100px;
+  }
 }
